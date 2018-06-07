@@ -5,13 +5,16 @@
     
     <title>三米客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
+    <meta name="description" content="查看详情">
+<meta property="og:type" content="website">
 <meta property="og:title" content="三米客">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="三米客">
+<meta property="og:description" content="查看详情">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="三米客">
+<meta name="twitter:description" content="查看详情">
     
 
     
@@ -156,7 +159,7 @@
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                2
+                3
                 <span>文章</span>
             </div>
             <div class="article-info-block">
@@ -209,16 +212,24 @@
 
             
             <section id="main">
-    <article id="post-niahao fengniao " class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-我们为什么应该坚持写博客？" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
         
         <div class="article-entry" itemprop="articleBody">
         
-            
-            <p>niahao fengniao </p>
-
+            <p><h1 id="我们为什么应该坚持写博客？"><a href="#我们为什么应该坚持写博客？" class="headerlink" title="我们为什么应该坚持写博客？"></a>我们为什么应该坚持写博客？</h1><h1 id="种种原因："><a href="#种种原因：" class="headerlink" title="种种原因："></a>种种原因：</h1><p>我们很多人都有过写点东西的冲动，只是又因为种种原因没有发表。</p>
+<ol>
+<li>写着写着，挤不出字来了。</li>
+<li>总感觉自己的内心想法表达不出来。</li>
+<li>感觉写了没什么用，自己都明白了干嘛还要写。</li>
+<li>怕写出来被人笑话被人喷。（这个也是我经常害怕的）</li>
+<li>写博客的费脑力，耗时间。还不如拿这精力去再学更多的东西。</li>
+</ol></p>
+            <p class="article-more-link">
+                <a href="/2018/06/07/我们为什么应该坚持写博客？/#more">查看更多</a>
+            </p>
         
         </div>
         <footer class="article-footer">
@@ -228,7 +239,106 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/06/05/niahao fengniao /" data-id="cji4nf80o0001lws6d6hsg0z8" class="article-share-link"><i class="fas fa-share"></i>分享到</a>
+    <a data-url="http://yoursite.com/2018/06/07/我们为什么应该坚持写博客？/" data-id="cji4piaz40001sts6agkefu1i" class="article-share-link"><i class="fas fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fab fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fab fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fab fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fab fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-你好，蜂鸟！" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><h1 id="你好，蜂鸟！"><a href="#你好，蜂鸟！" class="headerlink" title="你好，蜂鸟！"></a>你好，蜂鸟！</h1><p>我们还不够敏捷！</p>
+<p>你先听我说完！</p>
+<p>今天必须上线！</p>
+<p>对不起，一会儿给大家发红包！</p></p>
+            <p class="article-more-link">
+                <a href="/2018/06/05/你好，蜂鸟！/#more">查看更多</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://yoursite.com/2018/06/05/你好，蜂鸟！/" data-id="cji4piaz80002sts6vt0pqyju" class="article-share-link"><i class="fas fa-share"></i>分享到</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -336,17 +446,11 @@
         
         <div class="article-entry" itemprop="articleBody">
         
-            
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+            <p><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2></p>
+            <p class="article-more-link">
+                <a href="/2018/06/02/hello-world/#more">查看更多</a>
+            </p>
         
         </div>
         <footer class="article-footer">
@@ -356,7 +460,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/06/02/hello-world/" data-id="cji4nf80h0000lws6pxn5543m" class="article-share-link"><i class="fas fa-share"></i>分享到</a>
+    <a data-url="http://yoursite.com/2018/06/02/hello-world/" data-id="cji4piayw0000sts6zwuuowfj" class="article-share-link"><i class="fas fa-share"></i>分享到</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -445,7 +549,7 @@
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2018/06/05/niahao fengniao /" class="thumbnail">
+                            <a href="/2018/06/07/我们为什么应该坚持写博客？/" class="thumbnail">
     
     
         <span class="thumbnail-image thumbnail-none"></span>
@@ -456,7 +560,26 @@
                         
                         <div class="item-inner">
                             <p class="item-category"></p>
-                            <p class="item-title"><a href="/2018/06/05/niahao fengniao /" class="title"></a></p>
+                            <p class="item-title"><a href="/2018/06/07/我们为什么应该坚持写博客？/" class="title"></a></p>
+                            <p class="item-date"><time datetime="2018-06-07T15:17:51.691Z" itemprop="datePublished">2018-06-07</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/06/05/你好，蜂鸟！/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/06/05/你好，蜂鸟！/" class="title"></a></p>
                             <p class="item-date"><time datetime="2018-06-05T10:27:27.823Z" itemprop="datePublished">2018-06-05</time></p>
                         </div>
                     </li>
@@ -491,7 +614,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">归档</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">六月 2018</a><span class="archive-list-count">2</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">六月 2018</a><span class="archive-list-count">3</span></li></ul>
         </div>
     </div>
 
